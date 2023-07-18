@@ -10,6 +10,15 @@ https://aleksandra-nie.github.io/Todo-list-react/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tools
+
+- React
+- HTML
+- CSS
+- JavaScript
+- BEM convention
+- Normalize
+
 ## Available Scripts
 
 In the project directory, you can run:
