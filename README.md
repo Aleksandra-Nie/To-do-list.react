@@ -1,5 +1,7 @@
 # Task list
 
+![todolist-react](images/todolist-react.png)
+
 ## Demo
 
 https://aleksandra-nie.github.io/Todo-list-react/
