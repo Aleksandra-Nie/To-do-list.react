@@ -14,7 +14,7 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
                 </button>
                 <button type="reset" className="button button--reset">Usuń wszystkie</button>
             </>
-        )};
+        )}
     </div>
 );
 
