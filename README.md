@@ -1,6 +1,6 @@
 # Task list
 
-![todolist-react](images/todolist-react.png)
+![todolist-react](public/images/todolist-react.png)
 
 ## Demo
 
