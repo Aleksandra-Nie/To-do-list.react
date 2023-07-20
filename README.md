@@ -13,6 +13,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Tools
 
 - React
+- Webpack
+- Create React App
+- Babel
 - HTML
 - CSS
 - JavaScript
