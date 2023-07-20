@@ -13,7 +13,7 @@
     }
 }
 
-.button {
+.buttons__button {
     border: none;
     padding: 0;
     color: teal;
@@ -22,21 +22,21 @@
     transition: color 0.5s;
 }
 
-.button:hover {
+.buttons__button:hover {
     color: rgb(60, 167, 167);
 }
 
-.button:disabled {
+.buttons__button:disabled {
     color: #ccc;
 }
 
-.button--reset {
+.buttons__button--reset {
     padding-right: 20px;
 }
 
 @media (max-width: 767px) {
 
-    .button--reset {
+    .buttons__button--reset {
         padding: 0;
         margin-bottom: 20px;
     }
