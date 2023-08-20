@@ -1,6 +1,6 @@
 import "./style.css"
 
-const Buttons = ({ tasks, hideDone, toggleHideDone, markAllTasksCompleted }) => (
+const Buttons = ({ tasks, hideDone, toggleHideDone, markAllTasksCompleted, removeAllTasks }) => (
     <div className="buttons">
         {tasks.length > 0 && (
             <>
@@ -13,7 +13,11 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, markAllTasksCompleted }) => 
                 >
                     Ukończ wszystkie
                 </button>
-                <button type="reset" className="buttons__button buttons__button--reset">Usuń wszystkie</button>
+                <button type="reset"
+                    className="buttons__button buttons__button--reset"
+                    onClick={removeAllTasks}>
+                    Usuń wszystkie
+                </button>
             </>
         )}
     </div>

@@ -50,6 +50,10 @@ function App() {
     ]);
   }
 
+  const removeAllTasks = () => {
+    setTasks(tasks => [])
+  };
+
   return (
     <Container>
       <Header title="Lista zadań"
@@ -75,6 +79,7 @@ function App() {
             hideDone={hideDone}
             toggleHideDone={toggleHideDone}
             markAllTasksCompleted={markAllTasksCompleted}
+            removeAllTasks={removeAllTasks}
           />
         }
       />
