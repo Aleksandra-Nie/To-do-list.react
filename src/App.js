@@ -51,7 +51,7 @@ function App() {
   }
 
   const removeAllTasks = () => {
-    setTasks(tasks => [])
+    setTasks([]);
   };
 
   return (
