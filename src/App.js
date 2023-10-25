@@ -12,13 +12,15 @@ const exampleTasks = [
   { id: 2, content: "zrobić obiad", done: true },
 ];
 
+const localStorageTasksKey = "tasks"
+
 function App() {
 
   const [hideDone, setHideDone] = useState(false);
-  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks")) || exampleTasks);
+  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem(localStorageTasksKey)) || exampleTasks);
 
   useEffect(() => {
-    localStorage.setItem("tasks", JSON.stringify(tasks));
+    localStorage.setItem(localStorageTasksKey, JSON.stringify(tasks));
   }, [tasks]);
 
   const toggleHideDone = () => {
