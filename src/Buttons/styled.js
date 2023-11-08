@@ -35,7 +35,6 @@ export const StyledButton = styled.button`
     padding: 0;
     margin-bottom: 20px;
     }
-    `
-    }
+    `}
 `;
 

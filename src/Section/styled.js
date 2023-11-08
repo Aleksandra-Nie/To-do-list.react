@@ -24,8 +24,7 @@ export const StyledSectionHeader = styled.h2`
 
     ${({ second }) => second && css`
     border-bottom: none;
-    `
-    }
+    `}
 `;
 
 export const StyledSectionBody = styled.div`
