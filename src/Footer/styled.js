@@ -1,0 +1,6 @@
+import styled from "styled-components";
+
+export const StyledFooter = styled.footer`
+    text-align: center;
+    font-size: 12px;
+`;
