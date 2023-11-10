@@ -6,6 +6,7 @@ import Section from "./Section";
 import Footer from "./Footer";
 import Header from "./Header";
 import Container from "./Container";
+import { useLocalStorageState } from "./useLocalStorageState";
 
 const exampleTasks = [
   { id: 1, content: "przejść na Reacta", done: false },
@@ -17,11 +18,9 @@ const localStorageTasksKey = "tasks"
 function App() {
 
   const [hideDone, setHideDone] = useState(false);
-  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem(localStorageTasksKey)) || exampleTasks);
+  const [tasks, setTasks] = useLocalStorageState(localStorageTasksKey, exampleTasks);
 
-  useEffect(() => {
-    localStorage.setItem(localStorageTasksKey, JSON.stringify(tasks));
-  }, [tasks]);
+
 
   const toggleHideDone = () => {
     setHideDone(hideDone => !hideDone);
