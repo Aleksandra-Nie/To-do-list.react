@@ -6,20 +6,23 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
     <StyledList>
         {tasks.map(task => (
             <StyledItem
-                hidden={task.done && hideDone}
+                $hidden={task.done && hideDone}
                 key={task.id}
             >
-                <StyledButtonTask toggleDone
+                <StyledButtonTask
+                    $toggleDone
                     onClick={() => toggleTaskDone(task.id)}
                 >
                     {task.done ? " ✓ " : ""}
                 </StyledButtonTask>
                 <StyledContent
-                    done={task.done}
+                    $done={task.done}
                 >
                     {task.content}
                 </StyledContent>
-                <StyledButtonTask remove onClick={() => removeTask(task.id)}
+                <StyledButtonTask
+                    $remove
+                    onClick={() => removeTask(task.id)}
                 >
                     🗑
                 </StyledButtonTask>

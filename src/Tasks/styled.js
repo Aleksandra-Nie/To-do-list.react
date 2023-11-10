@@ -14,7 +14,7 @@ export const StyledItem = styled.li`
     padding: 10px;
     border-bottom: 1px solid #ddd;
 
-    ${({ hidden }) => hidden && css`
+    ${({ $hidden }) => $hidden && css`
     display: none;
     `}
 `;
@@ -28,7 +28,7 @@ export const StyledButtonTask = styled.button`
     transition: background 0.5s;
     cursor: pointer;
 
-    ${({ toggleDone }) => toggleDone && css`
+    ${({ $toggleDone }) => $toggleDone && css`
     background-color: hsl(120, 61%, 34%);
 
     &:hover {
@@ -40,7 +40,7 @@ export const StyledButtonTask = styled.button`
     }
     `}
 
-    ${({ remove }) => remove && css`
+    ${({ $remove }) => $remove && css`
     background-color: hsl(348, 83%, 47%);
 
     &:hover {
@@ -55,7 +55,7 @@ export const StyledButtonTask = styled.button`
 
 export const StyledContent = styled.span`
     
-    ${({ done }) => done && css`
+    ${({ $done }) => $done && css`
     text-decoration: line-through;
     `}
 `;

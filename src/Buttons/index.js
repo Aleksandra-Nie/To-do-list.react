@@ -4,7 +4,8 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, markAllTasksCompleted, remov
     <ButtonField>
         {tasks.length > 0 && (
             <>
-                <StyledButton onClick={toggleHideDone}>
+                <StyledButton
+                    onClick={toggleHideDone}>
                     {hideDone ? "Pokaż" : "Ukryj"} ukończone
                 </StyledButton>
                 <StyledButton
@@ -13,7 +14,9 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, markAllTasksCompleted, remov
                 >
                     Ukończ wszystkie
                 </StyledButton>
-                <StyledButton reset type="reset"
+                <StyledButton
+                    $reset
+                    type="reset"
                     onClick={removeAllTasks}>
                     Usuń wszystkie
                 </StyledButton>

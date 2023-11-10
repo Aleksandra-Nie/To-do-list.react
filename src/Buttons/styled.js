@@ -28,7 +28,7 @@ export const StyledButton = styled.button`
     color: #ccc;
     }
 
-    ${({ reset }) => reset && css`
+    ${({ $reset }) => $reset && css`
     padding-right: 20px;
 
     @media (max-width: 767px) {

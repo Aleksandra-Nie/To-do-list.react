@@ -4,7 +4,11 @@ const Section = ({ title, body, extraHeaderContent }) => (
 
     <StyledSection>
         <StyledSectionContainer>
-            <StyledSectionHeader second>{title}</StyledSectionHeader>
+            <StyledSectionHeader
+                $second
+            >
+                {title}
+            </StyledSectionHeader>
             {extraHeaderContent}
         </StyledSectionContainer>
         <StyledSectionBody>

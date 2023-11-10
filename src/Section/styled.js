@@ -22,7 +22,7 @@ export const StyledSectionHeader = styled.h2`
     font-size: 20px;
     border-bottom: 1px solid #ddd;
 
-    ${({ second }) => second && css`
+    ${({ $second }) => $second && css`
     border-bottom: none;
     `}
 `;
