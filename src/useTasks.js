@@ -6,7 +6,7 @@ const exampleTasks = [
     { id: 2, content: "zrobić obiad", done: true },
 ];
 
-const localStorageTasksKey = "tasks"
+const localStorageTasksKey = "tasks";
 
 export const useTasks = () => {
 
