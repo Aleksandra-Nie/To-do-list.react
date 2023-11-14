@@ -15,7 +15,7 @@ export const ButtonField = styled.div`
 export const StyledButton = styled.button`
     border: none;
     padding: 0;
-    color: teal;
+    color: ${({ theme }) => theme.color.primary};
     background-color: transparent;
     cursor: pointer;
     transition: color 0.5s;

@@ -11,14 +11,14 @@ export const StyledForm = styled.form`
 `;
 
 export const StyledInput = styled.input`
-    border: 1px solid #ddd;
+    border: 1px solid ${({ theme }) => theme.color.lightGrey};
     padding: 10px;
 `;
 
 export const StyledButton = styled.button`
 border: none;
     padding: 10px;
-    color: white;
+    color: ${({ theme }) => theme.color.secondary};
     background-color: hsl(180, 100%, 25%);
     cursor: pointer;
     transition: 0.5s;

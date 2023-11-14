@@ -12,7 +12,7 @@ export const StyledItem = styled.li`
     grid-gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid ${({ theme }) => theme.color.lightGrey};
 
     ${({ $hidden }) => $hidden && css`
     display: none;
@@ -21,7 +21,7 @@ export const StyledItem = styled.li`
 
 export const StyledButtonTask = styled.button`
     border: none;
-    color: white;
+    color: ${({ theme }) => theme.color.secondary};
     width: 30px;
     height: 30px;
     padding: 0;
