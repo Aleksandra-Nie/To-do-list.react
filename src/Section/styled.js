@@ -11,7 +11,7 @@ export const StyledSectionContainer = styled.div`
     grid-template-columns: 2fr auto auto;
     border-bottom: 1px solid #ddd;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
         grid-template-columns: 1fr;
     }
 `;

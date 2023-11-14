@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styled.js';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { GlobalStyle } from './styled.js';
