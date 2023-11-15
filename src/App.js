@@ -5,7 +5,7 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Footer from "./Footer";
 import Header from "./Header";
-import Container from "./Container";
+import { MainContainer } from "./Container/styled";
 
 
 
@@ -22,7 +22,7 @@ function App() {
   } = useTasks();
 
   return (
-    <Container>
+    <MainContainer>
       <Header title="Lista zadań"
 
       />
@@ -51,7 +51,7 @@ function App() {
         }
       />
       <Footer />
-    </Container>
+    </MainContainer>
   );
 }
 
