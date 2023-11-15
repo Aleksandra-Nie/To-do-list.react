@@ -6,7 +6,7 @@ export const StyledForm = styled.form`
     grid-gap: 20px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 `;
 
@@ -24,8 +24,8 @@ border: none;
     transition: 0.5s;
 
     &:hover {
-    background-color: hsl(180, 100%, 30%);
-    transform: scale(1.1);
+        background-color: hsl(180, 100%, 30%);
+        transform: scale(1.1);
     }
 
     &:active {

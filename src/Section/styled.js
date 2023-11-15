@@ -23,7 +23,7 @@ export const StyledSectionHeader = styled.h2`
     border-bottom: 1px solid ${({ theme }) => theme.color.lightGrey};
 
     ${({ $second }) => $second && css`
-    border-bottom: none;
+        border-bottom: none;
     `}
 `;
 

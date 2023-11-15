@@ -8,7 +8,7 @@ export const ButtonField = styled.div`
     margin: 0;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 `;
 
@@ -25,15 +25,15 @@ export const StyledButton = styled.button`
     }
 
     &:disabled {
-    color: #ccc;
+        color: #ccc;
     }
 
     ${({ $reset }) => $reset && css`
-    padding-right: 20px;
+        padding-right: 20px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-    padding: 0;
-    margin-bottom: 20px;
+        padding: 0;
+        margin-bottom: 20px;
     }
     `}
 `;
