@@ -7,17 +7,12 @@ import Footer from "../../common/Footer";
 import Header from "../../common/Header";
 import { MainContainer } from "../../common/Container/styled";
 
-
-
 function Tasks() {
 
-  const { tasks,
-    hideDone,
-    toggleHideDone,
+  const {
+    //tasks,
     removeTask,
-    toggleTaskDone,
     markAllTasksCompleted,
-    addNewTask,
     removeAllTasks,
   } = useTasks();
 
@@ -28,23 +23,17 @@ function Tasks() {
       />
       <Section
         title="Dodaj nowe zadanie"
-        body={<Form addNewTask={addNewTask} />}
+        body={<Form />}
       />
       <Section
         title="Lista zadań"
         body={
           <TaskList
-            tasks={tasks}
-            hideDone={hideDone}
             removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone}
           />
         }
         extraHeaderContent={
           <Buttons
-            tasks={tasks}
-            hideDone={hideDone}
-            toggleHideDone={toggleHideDone}
             markAllTasksCompleted={markAllTasksCompleted}
             removeAllTasks={removeAllTasks}
           />
