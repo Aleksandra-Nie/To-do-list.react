@@ -13,17 +13,22 @@ https://aleksandra-nie.github.io/Todo-list-react/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Tools
+## Technologies
 
-- React
-- Webpack
-- Create React App
-- Babel
-- HTML
-- CSS
-- JavaScript
-- BEM convention
-- Normalize
+| HTML          | CSS                | JavaScript                        | ReactJS                                   |
+|---------------|--------------------|-----------------------------------|-------------------------------------------|
+| Google Fonts  | Normalize CSS      | ES6                               | create-react-app                          |
+|               | grid               | JSON                              | Webpack                                   |
+|               | flex               | Error handling (try, catch)       | Babel                                     |
+|               | media queries      | API request                       | React DOM                                 |
+|               | BEM                | fetch & axios                     | useState, useEffect, useRef               |
+|               |                    | Promise, async / await            | Custom hooks                              |
+|               |                    |  Redux                            | setInterval, setTimeout                   |
+|               |                    |                                   | Styled Components 
+|               |                    |                                   | react-redux
+
+## Features
+The app is responsive on both website and mobile phone.
 
 ## Available Scripts
 
