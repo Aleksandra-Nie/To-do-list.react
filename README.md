@@ -22,10 +22,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 |               | flex               | Error handling (try, catch)       | Babel                                     |
 |               | media queries      | API request                       | React DOM                                 |
 |               | BEM                | fetch & axios                     | useState, useEffect, useRef               |
-|               |                    | Promise, async / await            | Custom hooks                              |
+|               |                    | Promise, async / await            | Custom hooks: useQueryParameter, useLocalStorageState, useTasks, useLocalStorageState                              |
 |               |                    |  Redux                            | setInterval, setTimeout                   |
-|               |                    |                                   | Styled Components 
-|               |                    |                                   | react-redux
+|               |                    |                                   | Styled Components: GlobalStyle, Theme      |
+|               |                    |                                   | react-redux                                |                                                       
+|               |                    |                                   | Redux-Saga  |
+|               |                    |                                   | Redux Toolkit   |
+|               |                    |                                   | React Router: useParams, useLocation, useHistory   |
 
 ## Features
 The app is responsive on both website and mobile phone.
