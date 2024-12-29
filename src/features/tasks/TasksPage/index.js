@@ -4,8 +4,9 @@ import Buttons from "./Buttons";
 import Section from "../../../common/Section";
 import Footer from "../../../common/Footer";
 import Header from "../../../common/Header";
-import { MainContainer } from "../../../common/Container/styled";
+import { MainContainer } from "../../../common/Container";
 import DownloadTaskButton from "./DownloadTaskButton";
+import Search from "../TasksPage/Search";
 
 function TasksPage() {
 
@@ -16,6 +17,10 @@ function TasksPage() {
         title="Dodaj nowe zadanie"
         extraHeaderContent={<DownloadTaskButton />}
         body={<Form />}
+      />
+      <Section
+        title="Wyszukiwarka"
+        body={<Search />}
       />
       <Section
         title="Lista zadań"
