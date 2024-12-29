@@ -1,5 +1,6 @@
 import { selectAreTasksEmpty, toggleHideDone, markAllTasksCompleted, removeAllTasks, selectIsEveryTaskDone, selectHideDone } from "../../tasksSlice";
-import { ButtonField, StyledButton } from "./styled";
+import { ButtonField } from "./styled";
+import { StyledButton } from "../Button";
 import { useSelector, useDispatch } from "react-redux";
 
 const Buttons = () => {

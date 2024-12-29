@@ -5,6 +5,7 @@ import Section from "../../../common/Section";
 import Footer from "../../../common/Footer";
 import Header from "../../../common/Header";
 import { MainContainer } from "../../../common/Container/styled";
+import DownloadTaskButton from "./DownloadTaskButton";
 
 function TasksPage() {
 
@@ -13,6 +14,7 @@ function TasksPage() {
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
+        extraHeaderContent={<DownloadTaskButton />}
         body={<Form />}
       />
       <Section
