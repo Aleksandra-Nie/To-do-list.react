@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const StyledList = styled.ul`
     list-style-type: none;
@@ -60,3 +61,7 @@ export const StyledContent = styled.span`
     `}
 `;
 
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: ${({ theme }) => theme.color.primary};
+`;
