@@ -1,4 +1,4 @@
-import { selectTasks, toggleTaskDone, removeTask, selectHideDone } from "../tasksSlice";
+import { selectTasks, toggleTaskDone, removeTask, selectHideDone } from "../../tasksSlice";
 import { StyledButtonTask, StyledItem, StyledList, StyledContent } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 

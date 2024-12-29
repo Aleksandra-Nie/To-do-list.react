@@ -1,4 +1,4 @@
-import { selectAreTasksEmpty, toggleHideDone, markAllTasksCompleted, removeAllTasks, selectIsEveryTaskDone, selectHideDone } from "../tasksSlice";
+import { selectAreTasksEmpty, toggleHideDone, markAllTasksCompleted, removeAllTasks, selectIsEveryTaskDone, selectHideDone } from "../../tasksSlice";
 import { ButtonField, StyledButton } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 

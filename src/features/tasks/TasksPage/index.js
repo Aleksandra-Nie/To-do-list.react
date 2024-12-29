@@ -1,12 +1,12 @@
 import Form from "./Form";
 import TaskList from "./TaskList";
 import Buttons from "./Buttons";
-import Section from "../../common/Section";
-import Footer from "../../common/Footer";
-import Header from "../../common/Header";
-import { MainContainer } from "../../common/Container/styled";
+import Section from "../../../common/Section";
+import Footer from "../../../common/Footer";
+import Header from "../../../common/Header";
+import { MainContainer } from "../../../common/Container/styled";
 
-function Tasks() {
+function TasksPage() {
 
   return (
     <MainContainer>
@@ -25,4 +25,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;

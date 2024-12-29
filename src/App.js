@@ -1,4 +1,4 @@
 import React from "react";
-import Tasks from "./features/tasks/Tasks";
+import TasksPage from "./features/tasks/TasksPage/";
 
-export default () => <Tasks />;
+export default () => <TasksPage />;
