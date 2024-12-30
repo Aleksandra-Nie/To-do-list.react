@@ -9,7 +9,7 @@ In the following list you enter one by one all the tasks that appear and are add
 
 Furthermore, you can go to a separate section "O autorze" where you find description of the author of the project.
 
-![todolist-react](public/images/Presentation1.gif)
+![todolist-react](for_README/Presentation1.gif)
 
 ## Demo
 
