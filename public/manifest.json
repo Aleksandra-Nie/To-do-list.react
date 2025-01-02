@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "To-do List",
+  "name": "To-do List React App",
   "icons": [
     {
-      "src": "images/currency-converter_icon",
+      "src": "images/Todolist_icon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     }
