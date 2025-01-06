@@ -13,7 +13,7 @@ Furthermore, you can go to a separate section "O autorze" where you find descrip
 
 ## Demo
 
-https://aleksandra-nie.github.io/Todo-list-react/
+https://aleksandra-nie.github.io/todo-list-react/
 
 ## Description
 
