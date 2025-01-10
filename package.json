@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aleksandra-nie.github.io/Todo-list-react/",
+  "homepage": "https://aleksandra-nie.github.io/todo-list-react/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.16.5",
